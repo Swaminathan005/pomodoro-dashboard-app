@@ -1,0 +1,112 @@
+body{
+    background-color: tomato;
+    color: whitesmoke;
+    background-image: url("../assets/images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#d1{
+       color:white;
+       display: flex;
+       align-items: center;
+}
+
+h1.d1{
+     font-family:Red Hat Display;
+     /*font-variant: small-caps;*/
+     word-spacing: 10px;
+     font-size: 90px;
+     border: 2px,hidden;
+     text-align: center;
+     padding: 10px 20px;
+     margin: 5px;
+     width: 100%;
+
+}
+ul.d1 {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+
+  position: fixed;
+  top: 43%;
+  right: 20px;
+
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul li.d1 img{
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  border: solid 2px white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button.skip{
+    padding: 5px;
+    margin-top:100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: white;
+    font-size: 20px;
+}
+#timer{
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Red Hat Display;;
+}
+button.control{
+    padding: 5px;
+    margin-top:25px;
+    margin-right:15px;
+    border-radius: 70%;
+    width: 70px;
+    height:70px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgb(255, 0, 0);
+}
+
+#set1{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgb(255, 255, 255);
+  backdrop-filter: blur(10px);
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+#set2{
+  position: fixed;
+  bottom: 20px;
+  left: 70px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+#motivation{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: Red Hat Display;
+  font-size: 25px;
+}

@@ -1,0 +1,36 @@
+<html>
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/pomo.css">
+<script src="js/pomo.js"></script>
+
+</head>
+<body>
+    <div id = "d1">
+        <h1 class = "d1">Pomodoro Timer</h1>
+        <ul class="d1"><br>
+            <li class="d1"><img src="assets/icons/calendar.png"></li>
+            <li class ="d1" ><img src="assets/icons/todo.png"></li>
+            <li class = "d1"><img src="assets/icons/dashboard.png"></li>
+        </ul>
+    </div>
+    <div id= "d2">
+        <center>
+        <button class = "skip" type="button" onclick = "focus()">Focus</button>
+        <button class = "skip" type="button" onclick = "br()">Break</button>
+        <button class = "skip" type="button" onclick = "Lbreak()">Long Break</button><br>
+        <span id="timer">25:00</span><br>
+        <button class = "control" onclick="pp()"><img id="playIcon" src="assets/icons/play.png" width="50"></button>
+        <button class="control"  onclick="reset()"><img src="assets/icons/reset.png" width="50"></button>
+        </center>
+    </div>
+    <div id = "d3">
+        <button id = "set1" onclick = "edit()"><img id="editimg" src="assets/icons/edit.png"width="30"></button>
+        <button id = "set2" onclick = "music()"><img id="musicimg" src="assets/icons/music.png"width="30"></button>
+        <p id = motivation>"Success comes to those<br>who never stop learning"</p>
+    </div>
+</body>
