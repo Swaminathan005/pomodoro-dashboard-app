@@ -25,4 +25,5 @@ A clean and aesthetic Pomodoro Timer web app designed to improve focus and produ
 - CSS3 (Flexbox, Glassmorphism UI)
 - JavaScript (Vanilla)
 
-## 📂 Project Structure
+## 🎨 Assets & Credits
+Icons used in this project are from [Icons8](https://icons8.com) and [flaticon.com](https://www.flaticon.com/)
