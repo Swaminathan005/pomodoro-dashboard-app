@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/calendar.css">
+
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div id="d1">
+    <center>
+  <h1 class="d1">Calendar</h1>
+    </center>
+  <ul class="d1">
+    <li class="d1"><img src="assets/icons/calendar.png"></li>
+    <li class ="d1" ><a href="todo.html"><img src="assets/icons/todo.png"></a></li>
+    <li class = "d1"><a href="index.html"><img src="assets/icons/timer.png"></a></li>
+  </ul>
+</div>
+
+<!-- MAIN LAYOUT -->
+<div id="main">
+
+  <!-- LEFT: TASK PANEL -->
+  <div id="task-panel">
+    <h2 id="selected-date">Select a date</h2>
+
+    <div id="task-input">
+      <input type="text" id="taskText" placeholder="Add task...">
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="task-list"></ul>
+  </div>
+
+  <!-- RIGHT: CALENDAR -->
+  <div id="calendar-container">
+
+    <div id="calendar-header">
+      <button onclick="prevMonth()">◀</button>
+      <h2 id="monthYear"></h2>
+      <button onclick="nextMonth()">▶</button>
+    </div>
+
+    <div id="days">
+      <div>Sun</div><div>Mon</div><div>Tue</div>
+      <div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+    </div>
+
+    <div id="dates"></div>
+
+  </div>
+
+</div>
+
+<!-- MOTIVATION -->
+<p id="motivation">
+"Success comes to those<br>who never stop learning"
+</p>
+
+</body>
+<script src="js/calendar.js"></script>
+</html>

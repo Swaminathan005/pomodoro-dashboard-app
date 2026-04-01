@@ -1,0 +1,156 @@
+body{
+    background-image: url("../assets/images/bg2.jpg");
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-family: Red Hat Display;;
+}
+
+/* HEADER */
+#d1{
+  align-items: center;
+}
+
+h1.d1{
+  font-size: 80px;
+  width: 100%;
+}
+
+/* SIDE NAV */
+ul.d1{
+  position: fixed;
+  top: 45%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul li.d1 img{
+  width: 35px;
+  height: 35px;
+  background: rgba(255,255,255,0.2);
+  padding: 6px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+/* MAIN LAYOUT */
+#main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 20px;
+
+}
+
+/* TASK PANEL */
+#task-panel{
+  width: 40%;
+  height: 100%;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#task-input{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#task-input input{
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+#task-input button{
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* TASK LIST */
+#task-list li{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CALENDAR */
+#calendar-container{
+  width: 50%;
+  padding: 20px;
+  max-width: 650px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  right: 40px;
+}
+
+/* HEADER */
+#calendar-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#calendar-header button{
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#calendar-header button:hover{
+  background: rgba(255,255,255,0.4);
+}
+
+/* DAYS */
+#days{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* DATES */
+#dates{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.date{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.date:hover{
+  background: rgba(255,255,255,0.3);
+}
+
+.selected{
+  background: rgba(255,255,255,0.5);
+}
+
+/* MOTIVATION */
+#motivation{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+}
